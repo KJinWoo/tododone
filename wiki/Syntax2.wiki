@@ -1,4 +1,4 @@
-<a href=page_start>= 페이지 내부에서의 링크 =</a>
+<a href=#page_start>= 페이지 내부에서의 링크 =</a>
 
 WikiSyntax is identified and linked automatically
 
