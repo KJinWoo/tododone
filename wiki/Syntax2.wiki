@@ -12,6 +12,6 @@ description, so that people know you're actually linking to a page on
 If you want to metion !WikiSyntax without it being autolinked, use an
 exclamation mark to prevent linking.
 
-어쩌라는 걸까 [WikiSyntax#page_start]
+어쩌라는 걸까 [page_start]
 
 ----
