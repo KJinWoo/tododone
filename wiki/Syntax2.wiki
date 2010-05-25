@@ -1,4 +1,4 @@
-= <a name="page_start">페이지 내부에서의 링크</a> =
+= <a name="page_start"/>페이지 내부에서의 링크 =
 
 WikiSyntax is identified and linked automatically
 
