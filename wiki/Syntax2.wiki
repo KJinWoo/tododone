@@ -1,6 +1,9 @@
 = 내부 페이지 링크 =
-어떻게 하는지 모르겠다.
-[MoinMoin_Syntex]
+Wiki의 각 페이지는 영문숫자로만 이름을 정할 수 있다.
+따라서, 각 페이지에 대해 링크를 설정할 수 있다.
+ # [MoinMoin_Syntex]
+ # [MoinMoin_Syntex 이전 페이지]
+
 ----
 = 외부 페이지 링크 =
  * 단순형 http://www.google.com
