@@ -48,15 +48,3 @@ int main(void)
   나 하나만 믿어 온 당신을.
   나는 다시 태어나도 당신만을 사랑하리라.
 ----
-WikiSyntax is identified and linked automatically
-
-Wikipage is not identified, so if you have a page named [Wikipage] you
-need to link it explicitly.
-
-If the WikiSyntax page is actually about reindeers, you can provide a
-description, so that people know you're actually linking to a page on
-[WikiSyntax reindeer flotillas].
-
-If you want to metion !WikiSyntax without it being autolinked, use an
-exclamation mark to prevent linking.
-----
