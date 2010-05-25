@@ -16,4 +16,7 @@
 </wiki:comment>
 이 문장 바로 앞에는 주석 문장이 숨겨져 있습니다.
 
-<wiki:gadget url="http://code.google.com/images" width= "800" height="200" border="1" /> 
+= 그외 삽입 가능한 것들 =
+ * 가젯
+ * 차트
+ * 비디오
