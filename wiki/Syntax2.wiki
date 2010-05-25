@@ -1,6 +1,6 @@
 = 내부 페이지 링크 =
 어떻게 하는지 모르겠다.
-[WikiSyntax#MoinMoin_Syntex]
+[MoinMoin_Syntex]
 ----
 = 외부 페이지 링크 =
  * 단순형 http://www.google.com
