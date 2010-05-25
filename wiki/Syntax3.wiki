@@ -1,4 +1,5 @@
 #summary Wiki Syntax 테이블, 주석 삽입
+#labels Featured,Phase-Implementation
 = 테이블 삽입 =
 
 || *년* || *최저온도* || *최고온도* ||
