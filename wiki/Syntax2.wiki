@@ -1,4 +1,4 @@
-= 페이지 내부에서의 링크 =
+<a href=page_start>= 페이지 내부에서의 링크 =</a>
 
 WikiSyntax is identified and linked automatically
 
@@ -12,6 +12,6 @@ description, so that people know you're actually linking to a page on
 If you want to metion !WikiSyntax without it being autolinked, use an
 exclamation mark to prevent linking.
 
-어쩌라는 걸까 [WikiSyntax#페이지_내부에서의_링크]
+어쩌라는 걸까 [WikiSyntax#page_start]
 
 ----
