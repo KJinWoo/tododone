@@ -1,4 +1,5 @@
 #summary Wiki Syntax 링크 예제
+#labels Featured,Phase-Implementation
 = 내부 페이지 링크 =
 Wiki의 각 페이지는 영문숫자로만 이름을 정할 수 있다.
 따라서, 각 페이지에 대해 링크를 설정할 수 있다.
