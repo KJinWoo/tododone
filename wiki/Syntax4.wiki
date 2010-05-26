@@ -1,0 +1,12 @@
+#summary Navigation
+
+== Wiki 샘플 ==
+ * [http://code.google.com/p/doctype/w/list?can=2&q= doctype]
+
+= 참조 사이트 =
+ * [http://support.googlecode.com support]
+ * [http://doctype.googlecode.com doctype]
+ * [http://code.google.com/p/doctype/wiki/Articles 사이드바 샘플]
+
+== Inline table of contents ==
+<wiki:toc max_depth="1" />
