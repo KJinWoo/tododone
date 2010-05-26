@@ -21,15 +21,18 @@
  * [#Header_Letters Header Letters]
 
 예제에서 보이다시피 `[#헤더_문장_입니다` 구문의 변환에서 버그가 있다.
- * <a href="#헤더_문장_입니다">헤더 문장</a>
- * <a href="#Header_Letters">헤더 문장</a>
 
 == 링크 목차 만들기 ==
 {{{
 <wiki:toc max_depth="1" />를 삽입하면 간단하게 링크 목차를 만들 수 있다.
-여기서 링크 목차는 
+max_depth="1"이면 = 헤더 = 들이 자동으로 링크 목차로 등록되고,
+max_depth="2"이면 = 헤더 = 와 == 헤더 == 들이 등록된다.
 }}}
 <wiki:toc max_depth="1" />
+
+<h1><a name="HTML_Header"/>HTML Header</h1>
+
+[#HTML_Header HTML Header]
 
 = Making Reference =
 
