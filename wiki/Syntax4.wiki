@@ -1,4 +1,4 @@
-#summary 네비게이션
+#summary Wiki Syntax 네비게이션
 #labels Featured,Phase-Implementation
 
 <h1>페이지 내부에 대해 링크 걸기</h1>
