@@ -1,4 +1,4 @@
-#summary Navigation
+#summary 네비게이션
 
 <wiki:toc max_depth="1" />
 
