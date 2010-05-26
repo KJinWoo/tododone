@@ -1,4 +1,5 @@
 #summary 네비게이션
+#labels Featured,Phase-Implementation
 
 <h1>페이지 내부에 대해 링크 걸기</h1>
 위키에서의 모든 헤더들은 자동으로 `<a name="헤더문장">헤더문장</a>`이 추가된다. 
