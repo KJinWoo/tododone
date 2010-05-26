@@ -4,12 +4,12 @@
 
 = 참조 위치 만들기 =
 
-<h2 id="make_ref">참조 위치 만들기</h2>
+<h2 name="make_ref">참조 위치 만들기</h2>
 
 {{{
 <a href="#참조될이름">내용</a>
 }}}
- * <a href="#make_ref">참조 위치 만들기</a>로 가기
+ * [#make_ref 참조 위치 만들기]로 가기
 
 = 참조 사이트 =
  * [http://support.googlecode.com support]
@@ -61,5 +61,4 @@
 
 
 
-
- * <a href="#make_ref">참조 위치 만들기</a>로 가기
+ * [#make_ref 참조 위치 만들기]로 가기
