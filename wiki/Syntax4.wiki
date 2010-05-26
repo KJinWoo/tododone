@@ -2,9 +2,7 @@
 
 <wiki:toc max_depth="1" />
 
-= 참조 위치 만들기 =
-
-<a name="make_ref">참조 위치 만들기</a>
+= <a name="make_ref">참조 위치 만들기</a> =
 
 {{{
 <a href="#참조될이름">내용</a>
