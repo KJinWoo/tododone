@@ -1,6 +1,6 @@
 #summary 다른 시도
 
-= You are good=
+= You are good =
 
 blank line
 
