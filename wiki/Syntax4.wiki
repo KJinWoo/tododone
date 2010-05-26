@@ -12,11 +12,11 @@
 
 다음 예제를 통해 실험할 수 있다.
 
-== 헤더 문장 ==
+== 헤더 문장 입니다 ==
 
 == Header Letters ==
 
- * [#헤더_문장 헤더 문장]
+ * [#헤더_문장_입니다 헤더 문장]
  * [#Header_Letters Header Letters]
 
 <wiki:toc max_depth="1" />
