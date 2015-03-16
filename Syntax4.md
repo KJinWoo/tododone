@@ -1,0 +1,73 @@
+<h1>페이지 내부에 대해 링크 걸기</h1>
+위키에서의 모든 헤더들은 자동으로 `<a name="헤더문장">헤더문장</a>`이 추가된다.
+헤더문장에 있는 공백문자는 `_`으로 대체되어 name으로 설정된다. 즉,
+`== 헤더 문장 ==`은
+```
+<h2><a name="헤더_문장"/>헤더 문장</h2>으로 변환된다.
+```
+따라서, 위의 헤더에 링크를 걸려면, `[#헤더_문장 헤더 문장]`으로 표현하면 된다.
+
+그런데, 유감스럽게도 한글은 지원이 되지 않는다.
+
+다음 예제를 통해 실험할 수 있다.
+
+## 헤더 문장 입니다 ##
+
+## Header Letters ##
+
+  * [#헤더_문장_입니다 헤더 문장]
+  * [Header Letters](#Header_Letters.md)
+
+예제에서 보이다시피 `[#헤더_문장_입니다` 구문의 변환에서 버그가 있다.
+
+---
+
+<h1>링크 목차 만들기</h1>
+```
+<wiki:toc max_depth="1" />를 삽입하면 간단하게 링크 목차를 만들 수 있다.
+max_depth="1"이면 = 헤더 = 들이 자동으로 링크 목차로 등록되고,
+max_depth="2"이면 = 헤더 = 와 == 헤더 == 들이 등록된다.
+만일, 헤더처럼 보이되 링크 목차에 포함되지 않게 하려면,
+HTML tag인 <h1>,<h2>,,,<h5>를 사용한다.
+아래 예제에서 HTML Header는 <h1>을 사용했기 때문에 링크 목차에 포함되지 않고 있다.
+```
+
+
+
+<h1>HTML Header</h1>
+# Wiki Header 1 #
+# Wiki Header 2 #
+# Wiki Header 3 #
+# Wiki Header 4 #
+
+
+---
+
+<h1>사이드 네비게이션</h1>
+위키 문서의 왼쪽에 메뉴를 나타내고 싶다면 `#sidebar`를 이용한다.
+
+먼저, 사이드 메뉴의 내용을 담고 있을 Wiki 문서를 만들어야 한다. 이 Wiki 문서의 Page Name을
+"SideBarMenu"로 정했다면, 이 파일의 내용은 아마도 다음과 같을 것이다.
+```
+ * [Page_Intro 개요]
+  * [Page_Intro#What_Is 위키란 무엇인가?]
+  * [Page_Intro#New 새로 변경된 내용]
+ * [WikiSyntax Wiki 문법]
+ * [Ex_Contents 예제 목록]
+  * [Ex_Sample1 예제 1]
+  * [Ex_Sample2 예제 2]
+  * [Ex_Sample3 예제 3]
+  * [Ex_Sample4 예제 4]
+```
+위 내용을 보면 Wiki 다수의 Wiki 문서들이 필요하다는 것을 알 수 있다.
+즉, Page\_Intro, WikiSyntax, Ex\_Contents, Ex\_Sample1, Ex\_Sample2, Ex\_Sample3, Ex\_Sample4 등의 Wiki 문서들이다.
+
+필요한 문서가 모두 제작되었으면, 이 문서의 시작 라인부근에 `#sidebar SideBarMenu`를 삽입한다.
+
+
+---
+
+<h1>참조 사이트</h1>
+  * [google code support](http://support.googlecode.com)
+  * [google code doctype](http://doctype.googlecode.com)
+  * [사이드 네비게이션 샘플](http://code.google.com/p/doctype/wiki/Articles)
